@@ -1,0 +1,117 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="72dp"
+            android:layout_height="63dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo_inside" />
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:text="@string/pronunciation_checker"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/accuracyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/accuracy"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/pag_bati"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/microphoneButton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/mic_btn"
+        android:padding="10dp"
+        android:layout_marginBottom="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/originalTextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/what_you_said"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/originalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_you_said_will_appear_here"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_marginBottom="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/correctedTextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/response"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/correctedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/corrected_pronounciation_will_appear_here"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

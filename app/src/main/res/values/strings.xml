@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PronunciationChecker</string>
+
+    <string name="pag_bati">Hi\n
+    You\'re up for a great start!
+    Now click on the microphone
+    below to record your voice</string>
+    <string name="pronunciation_checker">PRONUNCIATION CHECKER</string>
+    <string name="accuracy">Accuracy...</string>
+    <string name="what_you_said">What you said:</string>
+    <string name="what_you_said_will_appear_here">What you said will appear here...</string>
+    <string name="response">Response:</string>
+    <string name="corrected_pronounciation_will_appear_here">Corrected pronounciation will appear here...</string>
+</resources>
