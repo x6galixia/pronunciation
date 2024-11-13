@@ -64,7 +64,8 @@
         android:layout_height="64dp"
         android:background="@drawable/mic_btn"
         android:padding="10dp"
-        android:layout_marginBottom="48dp" />
+        android:layout_marginBottom="48dp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
